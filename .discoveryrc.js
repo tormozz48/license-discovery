@@ -1,10 +1,13 @@
+const path = require('path');
+const resolve = (p) => path.join(__dirname, p);
+
 module.exports = {
     name: 'Node modules licenses dashboard',
-    data: require('./data/source'),
+    data: require(resolve('./data/source')),
     view: {
         assets: [
-            'pages/default.js',
-            'styles/style.css'
+            resolve('pages/default.js'),
+            resolve('styles/style.css')
         ]
     }
 };

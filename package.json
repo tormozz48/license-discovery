@@ -22,6 +22,7 @@
     "url": "https://github.com/tormozz48/license-discovery/issues"
   },
   "homepage": "https://github.com/tormozz48/license-discovery#readme",
+  "discovery": ".discoveryrc.js",
   "dependencies": {
     "@discoveryjs/cli": "^1.1.1",
     "@discoveryjs/discovery": "^1.0.0-beta.21",
