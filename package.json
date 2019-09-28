@@ -1,0 +1,30 @@
+{
+  "name": "license-discovery",
+  "version": "1.0.0",
+  "description": "License discovery tool",
+  "bin": "bin/license-discovery",
+  "scripts": {
+    "start": "npx discovery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tormozz48/license-discovery.git"
+  },
+  "keywords": [
+    "license",
+    "discovery",
+    "discoveryjs",
+    "license-ls"
+  ],
+  "author": "andrey.kuznetsov48@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tormozz48/license-discovery/issues"
+  },
+  "homepage": "https://github.com/tormozz48/license-discovery#readme",
+  "dependencies": {
+    "@discoveryjs/cli": "^1.1.1",
+    "@discoveryjs/discovery": "^1.0.0-beta.21",
+    "license-ls": "^1.4.0"
+  }
+}
