@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 const path = require('path');
+const { createServer } = require('@discoveryjs/cli');
 
-require('@discoveryjs/cli/lib/serve')({
+createServer({
     configFile: path.join(__dirname, '../.discoveryrc.js'),
     port: process.env.PORT || 8123
 });
