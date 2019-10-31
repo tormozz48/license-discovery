@@ -1,3 +1,7 @@
-#!/usr/bin/env bash
+#!/usr/bin/env node
+const path = require('path');
 
-npx discovery
+require('@discoveryjs/cli/lib/serve')({
+    configFile: path.join(__dirname, '../.discoveryrc.js'),
+    port: process.env.PORT || 8123
+});
