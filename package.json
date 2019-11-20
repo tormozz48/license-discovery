@@ -6,10 +6,7 @@
   "scripts": {
     "start": "npx discovery"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tormozz48/license-discovery.git"
-  },
+  "repository": "tormozz48/license-discovery",
   "keywords": [
     "license",
     "discovery",
@@ -18,13 +15,9 @@
   ],
   "author": "andrey.kuznetsov48@yandex.ru",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tormozz48/license-discovery/issues"
-  },
-  "homepage": "https://github.com/tormozz48/license-discovery#readme",
   "discovery": ".discoveryrc.js",
   "dependencies": {
-    "@discoveryjs/cli": "^1.1.1",
+    "@discoveryjs/cli": "^1.2.0",
     "@discoveryjs/discovery": "^1.0.0-beta.21",
     "license-ls": "^1.4.0"
   }
